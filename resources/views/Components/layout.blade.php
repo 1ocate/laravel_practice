@@ -20,7 +20,7 @@
                         {{-- attribute(속성) 앞에 콜론(:)을 붙인 경우 값은 PHP 표현식으로 평가.
                         변수, 함수 호출, 배열 등 다양한 표현식을 전달할 수 있음  --}}
                         <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
-                        <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
+                        <x-nav-link href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-link>
                         <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
                     </div>
                   </div>
